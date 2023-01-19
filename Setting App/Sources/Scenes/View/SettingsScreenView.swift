@@ -13,11 +13,16 @@ final class SettingsScreenView: UIView {
 
     lazy var tableView: UITableView = {
         let tableView = UITableView(frame: .zero, style: .insetGrouped)
-        tableView.register(UserTableViewCell.self, forCellReuseIdentifier: UserTableViewCell.identifier)
-        tableView.register(FamilyTableViewCell.self, forCellReuseIdentifier: FamilyTableViewCell.identifier)
-        tableView.register(DefaultTableViewCell.self, forCellReuseIdentifier: DefaultTableViewCell.identifier)
-        tableView.register(SwitchTableViewCell.self, forCellReuseIdentifier: SwitchTableViewCell.identifier)
-        tableView.register(TitleTableViewCell.self, forCellReuseIdentifier: TitleTableViewCell.identifier)
+        tableView.register(UserTableViewCell.self,
+                           forCellReuseIdentifier: UserTableViewCell.identifier)
+        tableView.register(FamilyTableViewCell.self,
+                           forCellReuseIdentifier: FamilyTableViewCell.identifier)
+        tableView.register(DefaultTableViewCell.self,
+                           forCellReuseIdentifier: DefaultTableViewCell.identifier)
+        tableView.register(SwitchTableViewCell.self,
+                           forCellReuseIdentifier: SwitchTableViewCell.identifier)
+        tableView.register(TitleTableViewCell.self,
+                           forCellReuseIdentifier: TitleTableViewCell.identifier)
         return tableView
     }()
 
@@ -34,16 +39,11 @@ final class SettingsScreenView: UIView {
     }
 
     private func commonInit() {
-        setupView()
         setupHeirarchy()
         setupLayout()
     }
 
     // MARK: - Setup
-
-    private func setupView() {
-        //        backgroundColor = Colors.gray
-    }
 
     private func setupHeirarchy() {
         addSubview(tableView)
