@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C19B8D1E297983370078DF3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B8D1D297983370078DF3F /* AppDelegate.swift */; };
 		C19B8D20297983370078DF3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B8D1F297983370078DF3F /* SceneDelegate.swift */; };
-		C19B8D22297983370078DF3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B8D21297983370078DF3F /* ViewController.swift */; };
 		C19B8D27297983390078DF3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19B8D26297983390078DF3F /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -17,7 +16,6 @@
 		C19B8D1A297983370078DF3F /* Setting App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Setting App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C19B8D1D297983370078DF3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C19B8D1F297983370078DF3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C19B8D21297983370078DF3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C19B8D26297983390078DF3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C19B8D2B297983390078DF3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,13 +50,100 @@
 		C19B8D1C297983370078DF3F /* Setting App */ = {
 			isa = PBXGroup;
 			children = (
-				C19B8D1D297983370078DF3F /* AppDelegate.swift */,
-				C19B8D1F297983370078DF3F /* SceneDelegate.swift */,
-				C19B8D21297983370078DF3F /* ViewController.swift */,
-				C19B8D26297983390078DF3F /* Assets.xcassets */,
-				C19B8D2B297983390078DF3F /* Info.plist */,
+				C19B8D322979849D0078DF3F /* Sources */,
+				C19B8D31297984950078DF3F /* Resources */,
 			);
 			path = "Setting App";
+			sourceTree = "<group>";
+		};
+		C19B8D31297984950078DF3F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C19B8D33297984B70078DF3F /* Configuratoin */,
+				C19B8D26297983390078DF3F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C19B8D322979849D0078DF3F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C19B8D37297984FC0078DF3F /* Scenes */,
+				C19B8D36297984F40078DF3F /* Constants */,
+				C19B8D35297984E10078DF3F /* Extensions */,
+				C19B8D34297984C30078DF3F /* App */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C19B8D33297984B70078DF3F /* Configuratoin */ = {
+			isa = PBXGroup;
+			children = (
+				C19B8D2B297983390078DF3F /* Info.plist */,
+			);
+			path = Configuratoin;
+			sourceTree = "<group>";
+		};
+		C19B8D34297984C30078DF3F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C19B8D1D297983370078DF3F /* AppDelegate.swift */,
+				C19B8D1F297983370078DF3F /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C19B8D35297984E10078DF3F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C19B8D36297984F40078DF3F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		C19B8D37297984FC0078DF3F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C19B8D3A2979851A0078DF3F /* Controller */,
+				C19B8D39297985140078DF3F /* View */,
+				C19B8D382979850E0078DF3F /* Model */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		C19B8D382979850E0078DF3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C19B8D39297985140078DF3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C19B8D3B297985260078DF3F /* Custom Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C19B8D3A2979851A0078DF3F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C19B8D3B297985260078DF3F /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Custom Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +215,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C19B8D22297983370078DF3F /* ViewController.swift in Sources */,
 				C19B8D1E297983370078DF3F /* AppDelegate.swift in Sources */,
 				C19B8D20297983370078DF3F /* SceneDelegate.swift in Sources */,
 			);
@@ -262,7 +346,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KD67T552T3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Setting App/Info.plist";
+				INFOPLIST_FILE = "Setting App/Resources/Configuration/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -289,7 +373,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KD67T552T3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Setting App/Info.plist";
+				INFOPLIST_FILE = "Setting App/Resources/Configuration/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
