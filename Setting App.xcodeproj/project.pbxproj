@@ -23,6 +23,7 @@
 		C19B8D5A297989560078DF3F /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B8D56297989560078DF3F /* TitleTableViewCell.swift */; };
 		C19B8D5B297989560078DF3F /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B8D57297989560078DF3F /* SwitchTableViewCell.swift */; };
 		C19B8D5C297989560078DF3F /* FamilyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B8D58297989560078DF3F /* FamilyTableViewCell.swift */; };
+		C19B8D5E297989B20078DF3F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B8D5D297989B20078DF3F /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		C19B8D56297989560078DF3F /* TitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		C19B8D57297989560078DF3F /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
 		C19B8D58297989560078DF3F /* FamilyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyTableViewCell.swift; sourceTree = "<group>"; };
+		C19B8D5D297989B20078DF3F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				C19B8D512979890D0078DF3F /* SettingsScreenView.swift */,
+				C19B8D5D297989B20078DF3F /* DetailViewController.swift */,
 				C19B8D3B297985260078DF3F /* Custom Cell */,
 			);
 			path = View;
@@ -271,6 +274,7 @@
 				C19B8D5B297989560078DF3F /* SwitchTableViewCell.swift in Sources */,
 				C19B8D42297986C70078DF3F /* UIColor func.swift in Sources */,
 				C19B8D4A297987830078DF3F /* Fonts.swift in Sources */,
+				C19B8D5E297989B20078DF3F /* DetailViewController.swift in Sources */,
 				C19B8D4E297987DE0078DF3F /* SettingsScreenModel.swift in Sources */,
 				C19B8D40297986260078DF3F /* SettingsScreenController.swift in Sources */,
 			);
