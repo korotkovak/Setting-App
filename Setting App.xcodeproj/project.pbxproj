@@ -13,6 +13,8 @@
 		C19B8D3E297985EA0078DF3F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C19B8D3D297985EA0078DF3F /* SnapKit */; };
 		C19B8D40297986260078DF3F /* SettingsScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B8D3F297986260078DF3F /* SettingsScreenController.swift */; };
 		C19B8D42297986C70078DF3F /* UIColor func.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B8D41297986C70078DF3F /* UIColor func.swift */; };
+		C19B8D482979876E0078DF3F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B8D472979876E0078DF3F /* Colors.swift */; };
+		C19B8D4A297987830078DF3F /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B8D49297987830078DF3F /* Fonts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		C19B8D2B297983390078DF3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C19B8D3F297986260078DF3F /* SettingsScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenController.swift; sourceTree = "<group>"; };
 		C19B8D41297986C70078DF3F /* UIColor func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor func.swift"; sourceTree = "<group>"; };
+		C19B8D472979876E0078DF3F /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = "Setting App/Sources/Colors.swift"; sourceTree = SOURCE_ROOT; };
+		C19B8D49297987830078DF3F /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Fonts.swift; path = "Setting App/Sources/Fonts.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 		C19B8D36297984F40078DF3F /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				C19B8D472979876E0078DF3F /* Colors.swift */,
+				C19B8D49297987830078DF3F /* Fonts.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -230,8 +236,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C19B8D1E297983370078DF3F /* AppDelegate.swift in Sources */,
+				C19B8D482979876E0078DF3F /* Colors.swift in Sources */,
 				C19B8D20297983370078DF3F /* SceneDelegate.swift in Sources */,
 				C19B8D42297986C70078DF3F /* UIColor func.swift in Sources */,
+				C19B8D4A297987830078DF3F /* Fonts.swift in Sources */,
 				C19B8D40297986260078DF3F /* SettingsScreenController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
