@@ -12,6 +12,7 @@
 		C19B8D27297983390078DF3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19B8D26297983390078DF3F /* Assets.xcassets */; };
 		C19B8D3E297985EA0078DF3F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C19B8D3D297985EA0078DF3F /* SnapKit */; };
 		C19B8D40297986260078DF3F /* SettingsScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B8D3F297986260078DF3F /* SettingsScreenController.swift */; };
+		C19B8D42297986C70078DF3F /* UIColor func.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B8D41297986C70078DF3F /* UIColor func.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C19B8D26297983390078DF3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C19B8D2B297983390078DF3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C19B8D3F297986260078DF3F /* SettingsScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenController.swift; sourceTree = "<group>"; };
+		C19B8D41297986C70078DF3F /* UIColor func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor func.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,10 +74,10 @@
 		C19B8D322979849D0078DF3F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C19B8D37297984FC0078DF3F /* Scenes */,
-				C19B8D36297984F40078DF3F /* Constants */,
-				C19B8D35297984E10078DF3F /* Extensions */,
 				C19B8D34297984C30078DF3F /* App */,
+				C19B8D35297984E10078DF3F /* Extensions */,
+				C19B8D36297984F40078DF3F /* Constants */,
+				C19B8D37297984FC0078DF3F /* Scenes */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -100,6 +102,7 @@
 		C19B8D35297984E10078DF3F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				C19B8D41297986C70078DF3F /* UIColor func.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			files = (
 				C19B8D1E297983370078DF3F /* AppDelegate.swift in Sources */,
 				C19B8D20297983370078DF3F /* SceneDelegate.swift in Sources */,
+				C19B8D42297986C70078DF3F /* UIColor func.swift in Sources */,
 				C19B8D40297986260078DF3F /* SettingsScreenController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
