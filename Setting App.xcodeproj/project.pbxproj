@@ -17,6 +17,12 @@
 		C19B8D4A297987830078DF3F /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B8D49297987830078DF3F /* Fonts.swift */; };
 		C19B8D4C297987D00078DF3F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B8D4B297987D00078DF3F /* Model.swift */; };
 		C19B8D4E297987DE0078DF3F /* SettingsScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B8D4D297987DE0078DF3F /* SettingsScreenModel.swift */; };
+		C19B8D522979890D0078DF3F /* SettingsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B8D512979890D0078DF3F /* SettingsScreenView.swift */; };
+		C19B8D542979893D0078DF3F /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B8D532979893D0078DF3F /* UserTableViewCell.swift */; };
+		C19B8D59297989560078DF3F /* DefaultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B8D55297989560078DF3F /* DefaultTableViewCell.swift */; };
+		C19B8D5A297989560078DF3F /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B8D56297989560078DF3F /* TitleTableViewCell.swift */; };
+		C19B8D5B297989560078DF3F /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B8D57297989560078DF3F /* SwitchTableViewCell.swift */; };
+		C19B8D5C297989560078DF3F /* FamilyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B8D58297989560078DF3F /* FamilyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +37,12 @@
 		C19B8D49297987830078DF3F /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Fonts.swift; path = "Setting App/Sources/Constants/Fonts.swift"; sourceTree = SOURCE_ROOT; };
 		C19B8D4B297987D00078DF3F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		C19B8D4D297987DE0078DF3F /* SettingsScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenModel.swift; sourceTree = "<group>"; };
+		C19B8D512979890D0078DF3F /* SettingsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenView.swift; sourceTree = "<group>"; };
+		C19B8D532979893D0078DF3F /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		C19B8D55297989560078DF3F /* DefaultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultTableViewCell.swift; sourceTree = "<group>"; };
+		C19B8D56297989560078DF3F /* TitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		C19B8D57297989560078DF3F /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		C19B8D58297989560078DF3F /* FamilyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +149,7 @@
 		C19B8D39297985140078DF3F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C19B8D512979890D0078DF3F /* SettingsScreenView.swift */,
 				C19B8D3B297985260078DF3F /* Custom Cell */,
 			);
 			path = View;
@@ -153,6 +166,11 @@
 		C19B8D3B297985260078DF3F /* Custom Cell */ = {
 			isa = PBXGroup;
 			children = (
+				C19B8D532979893D0078DF3F /* UserTableViewCell.swift */,
+				C19B8D55297989560078DF3F /* DefaultTableViewCell.swift */,
+				C19B8D58297989560078DF3F /* FamilyTableViewCell.swift */,
+				C19B8D57297989560078DF3F /* SwitchTableViewCell.swift */,
+				C19B8D56297989560078DF3F /* TitleTableViewCell.swift */,
 			);
 			path = "Custom Cell";
 			sourceTree = "<group>";
@@ -244,7 +262,13 @@
 				C19B8D4C297987D00078DF3F /* Model.swift in Sources */,
 				C19B8D1E297983370078DF3F /* AppDelegate.swift in Sources */,
 				C19B8D482979876E0078DF3F /* Colors.swift in Sources */,
+				C19B8D522979890D0078DF3F /* SettingsScreenView.swift in Sources */,
+				C19B8D5A297989560078DF3F /* TitleTableViewCell.swift in Sources */,
+				C19B8D5C297989560078DF3F /* FamilyTableViewCell.swift in Sources */,
+				C19B8D542979893D0078DF3F /* UserTableViewCell.swift in Sources */,
 				C19B8D20297983370078DF3F /* SceneDelegate.swift in Sources */,
+				C19B8D59297989560078DF3F /* DefaultTableViewCell.swift in Sources */,
+				C19B8D5B297989560078DF3F /* SwitchTableViewCell.swift in Sources */,
 				C19B8D42297986C70078DF3F /* UIColor func.swift in Sources */,
 				C19B8D4A297987830078DF3F /* Fonts.swift in Sources */,
 				C19B8D4E297987DE0078DF3F /* SettingsScreenModel.swift in Sources */,
