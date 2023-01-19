@@ -8,6 +8,7 @@
 import UIKit
 
 final class SettingsScreenModel {
+    
     var configurations = [
         Section(options: [
             .userCell(model: UserModel(title: Title.user,
